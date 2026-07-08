@@ -6,10 +6,11 @@ class sett{
 		set.add(40);
 		set.add(30);
 		System.out.println(set);
-		set.remove(40);
-		System.out.println(set);
-		System.out.println(set.contains(40));
-		System.out.println(set.isEmpty());
+		System.out.println(set.first());
+		System.out.println(set.last());
+		System.out.println("higher than 20:"+set.higher(20));
+		System.out.print("Lower than 40: "+set.lower(40));
+		
 	}
 }
  
